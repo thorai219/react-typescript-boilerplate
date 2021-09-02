@@ -11,6 +11,8 @@
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "dependencies": {
+    "bootstrap": "^5.1.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -21,7 +23,7 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
     "@babel/runtime": "^7.15.4",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.0",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
@@ -42,6 +44,8 @@
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "react-refresh": "^0.10.0",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "typescript": "^4.4.2",
     "webpack": "^5.51.2",
